@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
+
     <style>
 
         h3 {
@@ -21,7 +25,8 @@
         body {
             background-color: rgb(176, 191, 151);
             color: white;
-            font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-family:'Montserrat', sans-serif;
+            font-weight:200;
         }
         
         .principal-1 {
@@ -37,12 +42,22 @@
             font-size: 15px;
         }
 
+        .image {
+            border-radius: 500px;
+        }
+
+        .button {
+            background-color: white;
+            color:rgb(176, 191, 151);
+            text-decoration: none;
+            padding: 10px;
+        }
     </style>
 </head>
 
 <body>
     <h1>Sthéfani Ferreira Martinelli</h1>
-    <img id="foto-pessoal" src="IMG_1092-5.jpg" width="400px"
+    <img class="image" id="foto-pessoal" src="IMG_1092-5.jpg" width="400px"
         alt="Foto pessoal de uma mulher branca com cabelos e olhos castanhos">
     <h3>Descrição</h3>
     <p>Nascida em Paragominas - PA em 1993, hoje moro em Minas Gerais, na cidade de Bom Despacho. <br><br>
@@ -60,7 +75,7 @@
     </p>
     <hr>
     <h3>Experiências profissionais</h3>
-    <p><strong>Abr. 2019 - Dias atuais: Máli Máli Proprietária e Estilista</strong> <em>(<a
+    <p><strong>Abr. 2019 - Dias atuais: Máli Máli Proprietária e Estilista</strong> <em>(<a class="button"
                 href="https://www.malimali.com.br/" target="_blank">Site Máli Máli</a>)</em><br>
         Principais atividades: Planejamento e criação de coleções mais sustentáveis, dentro do segmento de moda
         feminina. Responsável também pela organização financeira, atendimento ao cliente e planejamento de marketing da
