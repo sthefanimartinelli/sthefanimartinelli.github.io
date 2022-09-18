@@ -1,0 +1,94 @@
+h3 {
+    color: #2E2D2D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+body {
+    background-color: #F1F1F1;
+    color: #2E2D2D;
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+    margin-left: 30px;
+}
+
+.principal-1 {
+    font-size: 26px;
+}
+
+.principal-2 {
+    font-size: 24px;
+}
+
+.principal-3 {
+    font-size: 22px;
+}
+
+.principal-4 {
+    font-size: 20px;
+}
+
+.principal-4 {
+    font-size: 18px;
+}
+
+.image {
+    border-radius: 500px;
+    padding: 10px;
+    background-color: white;
+    border: 3px solid #2E2D2D;
+    margin-top: 30px;
+    position: relative;
+}
+
+.sobre-mim {
+    width: 720px;
+    text-align: justify;
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 520px;
+}
+
+#resumo-descricao {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.importante-negrito {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.list {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.list li a {
+    text-decoration: none;
+}
+
+.button {
+    background-color: #2E2D2D;
+    padding: 15px 15px;
+    color:white;
+    text-decoration: none;
+    border-radius: 30px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#lista-habilidades li:nth-child(odd) {
+    font-style: italic;
+}
+

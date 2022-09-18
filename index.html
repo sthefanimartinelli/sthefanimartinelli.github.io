@@ -8,104 +8,58 @@
     <title>Portfólio Web</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;1,500;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;0,900;1,100;1,200;1,300;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
-    <style>
-
-        h3 {
-            color: white;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            font-size: 20px;
-        }
-
-        h1 {
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
-
-        body {
-            background-color: rgb(176, 191, 151);
-            color: white;
-            font-family:'Montserrat', sans-serif;
-            font-weight:200;
-        }
-        
-        .principal-1 {
-            font-size: 30px;
-        }
-        .principal-2 {
-            font-size: 25px ;
-        }
-        .principal-3 {
-            font-size: 20px;
-        }
-        .principal-4 {
-            font-size: 15px;
-        }
-
-        .image {
-            border-radius: 500px;
-        }
-
-        .button {
-            background-color: white;
-            color:rgb(176, 191, 151);
-            text-decoration: none;
-            padding: 10px;
-        }
-    </style>
 </head>
 
 <body>
-    <h1>Sthéfani Ferreira Martinelli</h1>
+    <h1 id="sobre-mim">STHÉFANI FERREIRA MARTINELLI</h1>
     <img class="image" id="foto-pessoal" src="IMG_1092-5.jpg" width="400px"
         alt="Foto pessoal de uma mulher branca com cabelos e olhos castanhos">
-    <h3>Descrição</h3>
-    <p>Nascida em Paragominas - PA em 1993, hoje moro em Minas Gerais, na cidade de Bom Despacho. <br><br>
-        <hr>
-    <h3>Educação</h3>
-    Me formei em Engenharia Mecânica, pela Universidade Federal de Minas Gerais, em 2016.<br><br>
 
-    Durante a faculdade, alguns pontos importantes foram:
-    <li>2012: Realizei um intercâmbio de três meses na cidade de Brighton, Inglaterra, para consolidação do idioma
-        inglês;</li>
-    <li>2013 - 2014: Participei da equipe de competição de aeromodelismo, e estive presente em duas competições
-        nacionais da SAE Aero Design, sendo a responsável pela apresentação de projeto;
-    <li>2015: Participei do programa Ciência sem Fronteiras, onde cursei dois semestres do curso de Engenharia Mecânica
-        na Queensland University of Technology, em Brisbane Austrália.</li>
-    </p>
-    <hr>
-    <h3>Experiências profissionais</h3>
-    <p><strong>Abr. 2019 - Dias atuais: Máli Máli Proprietária e Estilista</strong> <em>(<a class="button"
-                href="https://www.malimali.com.br/" target="_blank">Site Máli Máli</a>)</em><br>
-        Principais atividades: Planejamento e criação de coleções mais sustentáveis, dentro do segmento de moda
-        feminina. Responsável também pela organização financeira, atendimento ao cliente e planejamento de marketing da
-        empresa.
+    <div class="sobre-mim"> 
+    <h3>SOBRE MIM</h3>
+    <p id="resumo-descricao"> Estudante de desenvolvimento web na Trybe | Bacharel em Engenharia Mecânica pela UFMG </p>
+    <p> Curiosa por aprender sobre novos assuntos e adquirir novas habilidades, meu formei como Engenheira Mecânica mas já trabalhei nas áreas de <span class="importante-negrito">tecnologia, gestão e moda.</span>
         <br><br>
-        <strong>Jun. 2018 – Nov. 2018: Falconi Consultores de Resultado: Analista de Gestão</strong><br>
-        Principais atividades: Atuação em projeto em que foi aplicado o Gerenciamento da Rotina. Responsável pelo
-        desenvolvimento de Procedimentos Padrão para área comercial e por acompanhar a equipe em campo para validar e
-        auxiliar no treinamento dos padrões. Atuação no treinamento teórico do método PDCA, ministrado aos times
-        comerciais. Responsável pelo desdobramento do plano de ação de uma das frentes do projeto, tendo realizado o
-        acompanhamento junto à equipe do cliente para que fosse corretamente implementado.
+        Tenho como objetivo continuar desenvolvendo meus conhecimentos na área de programação, que me permitam <span class="importante-negrito">resolver problemas complexos, buscar soluções inovadoras e continuar sempre aprendendo.</span>
         <br><br>
-        <strong>Mai. 2017 – Mar. 2018: Stone Pagamentos: Analista de Risco nas áreas de Cadastro e Risco de
-            Produtos</strong><br>
-        Principais atividades: Responsável pelo acompanhamento, definição de novos fluxos e resolução de problemas de
-        clientes com alto faturamento, redes de franquias, holdings, grupos econômicos. Encarregada de realizar estudos
-        de segmentos do mercado, análise de dados internos e dados de clientes com portfólios atípicos e arriscados, a
-        fim de definir políticas de risco para a companhia. Responsável por definir premissas para a entrada de clientes
-        de portfólios como: marketplace, suplementos alimentícios, armas de fogo, apps, criptomoedas, entre outros,
-        atuando juntamente com os times Comercial, Novos Produtos, Regulamentações das Bandeiras, Compliance e Logística
-    </p>
-    <hr>
-    <h3>Habilidades</h3>
-    <ul class="list-style">
-        <li class="principal-1">Proatividade</li>
-        <li class="principal-2">Curiosidade em aprender</li>
-        <li class="principal-3">Comunicação assertiva</li>
-        <li class="principal-4">Fluente em língua inglesa</li>
+        Sou também apaixonada por <span class="importante-negrito">moda, sustentabilidade e música.</span>
+        <br><br>
+        Nasci em Paragominas - PA em 1993, mas hoje moro em <span class="importante-negrito">Bom Despacho, Minas Gerais.</span> <br><br>
+
+    </div>
+
+    <div class="list">
+    <h3 id="habilidades">HABILIDADES</h3>
+    <ul id="lista-habilidades">
+        <li class="principal-1">Curiodade em aprender</li>
+        <li class="principal-2">Proatividade</li>
+        <li class="principal-3">Resiliência</li>
+        <li class="principal-4">Criatividade</li>
+        <li class="principal-4">Comunicação assertiva</li>
     </ul>
-    <p><strong><a href=#foto-pessoal>LINK PARA FOTO</a><strong></p>
+    </div>
+    <div class="list">
+    <h3 id="onde-me-encontrar">ONDE ME ENCONTRAR</h3>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/sthefanimartinelli/" target="_blank">Linkedin</a></li>
+        <li><a href="https://github.com/sthefanimartinelli" target="_blank">GitHub</a></li>
+    </ul>
+    </div>
+    
+    <div class="list">
+    <h3>ÍNDICE</h3>
+    <ol>
+        <li><a href="#sobre-mim">Sobre mim</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#onde-me-encontrar">Onde me encontrar</a></li>
+    </ul>
+    </div>
+    </div>
+
+    <p><a class="button" href=#foto-pessoal>Voltar ao início</a></p>
 
 </body>
 
